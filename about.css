@@ -1,0 +1,128 @@
+:root {
+    --main-color: #7f5af0;
+    --bg-color: #0f0f0f;
+    --text-color: #f5f5f5;
+    --accent-color: #2cb67d;
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.1);
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  body {
+    background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+    color: var(--text-color);
+    scroll-behavior: smooth;
+  }
+
+  header, footer {
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--glass-border);
+    text-align: center;
+    padding: 2rem 1rem;
+    border-radius: 0 0 1rem 1rem;
+  }
+
+  header h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+  }
+
+  nav {
+    margin-top: 1rem;
+  }
+
+  nav a {
+    color: var(--text-color);
+    margin: 0 1.2rem;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 4px;
+    transition: color 0.3s ease;
+  }
+
+  nav a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--accent-color);
+    transition: width 0.3s ease;
+  }
+
+  nav a:hover::after {
+    width: 100%;
+  }
+
+  nav a:hover {
+    color: var(--accent-color);
+  }
+
+  main {
+    max-width: 800px;
+    margin: auto;
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+
+  .intro-box {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .intro-box h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+  }
+
+  .intro-box h3 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+  }
+
+  .intro-box p {
+    font-size: 1.15rem;
+    line-height: 1.9;
+    margin-bottom: 2.5rem;
+  }
+
+  .btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .btn-group a {
+    padding: 0.75rem 1.5rem;
+    background: var(--main-color);
+    border: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+  }
+
+  .btn-group a:hover {
+    background: var(--accent-color);
+  }
+
+  footer p {
+    font-size: 0.95rem;
+    color: #aaa;
+  }
