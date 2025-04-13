@@ -253,6 +253,7 @@
     }
     .intro-box p {
       font-size: 1rem;
+      padding: 1rem;
     }
     .btn-group {
       flex-direction: column;
