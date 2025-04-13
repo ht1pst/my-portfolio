@@ -269,4 +269,12 @@
     footer p{
       font-size: 0.6rem;
     }
+    header, footer {
+      background: var(--glass-bg);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--glass-border);
+      text-align: center;
+      padding: 2rem 1rem;
+      border-radius: 0 0 1rem 1rem;
+    }
   }
