@@ -126,3 +126,146 @@
     font-size: 0.95rem;
     color: #aaa;
   }
+  @media (max-width: 1200px) {
+    main {
+      padding: 2rem 1rem;
+    }
+    .intro-box {
+      padding: 2rem 1rem;
+    }
+  }
+  
+  /* For screens with a maximum width of 992px */
+  @media (max-width: 992px) {
+    main {
+      padding: 1.5rem 1rem;
+    }
+    .intro-box {
+      padding: 1.5rem 1rem;
+    }
+    .intro-box h2 {
+      font-size: 2.5rem;
+    }
+    .intro-box h3 {
+      font-size: 1.5rem;
+    }
+    .intro-box p {
+      font-size: 1rem;
+    }
+  }
+  
+  /* For screens with a maximum width of 768px */
+  @media (max-width: 768px) {
+    main {
+      padding: 1rem 0.5rem;
+    }
+    .intro-box {
+      padding: 1rem 0.5rem;
+    }
+    .intro-box h2 {
+      font-size: 2rem;
+    }
+    .intro-box h3 {
+      font-size: 1.2rem;
+    }
+    .intro-box p {
+      font-size: 0.9rem;
+    }
+    .btn-group {
+      flex-direction: column;
+      align-items: center;
+    }
+    .btn-group a {
+      margin-bottom: 1rem;
+    }
+  }
+  
+  /* For screens with a maximum width of 576px */
+  @media (max-width: 576px) {
+    main {
+      padding: 0.5rem 0.2rem;
+    }
+    .intro-box {
+      padding: 0.5rem 0.2rem;
+    }
+    .intro-box h2 {
+      font-size: 1.5rem;
+    }
+    .intro-box h3 {
+      font-size: 1rem;
+    }
+    .intro-box p {
+      font-size: 0.8rem;
+    }
+    .btn-group {
+      flex-direction: column;
+      align-items: center;
+    }
+    .btn-group a {
+      margin-bottom: 1rem;
+    }
+  }
+  
+  /* For screens with a maximum width of 480px */
+  @media (max-width: 480px) {
+    main {
+      padding: 0.2rem 0.1rem;
+    }
+    .intro-box {
+      padding: 0.2rem 0.1rem;
+    }
+    .intro-box h2 {
+      font-size: 1.2rem;
+    }
+    .intro-box h3 {
+      font-size: 0.9rem;
+    }
+    .intro-box p {
+      font-size: 0.7rem;
+    }
+    .btn-group {
+      flex-direction: column;
+      align-items: center;
+    }
+    .btn-group a {
+      margin-bottom: 1rem;
+    }
+  }
+  
+  /* For screens with a maximum width of 320px */
+  @media (max-width: 320px) {
+    header h1{
+      font-size: 2rem;
+    }
+    main {
+      padding: 0.1rem 0.05rem;
+    }
+    .intro-box {
+      padding: 0.1rem 0.05rem;
+      margin-top: 1rem;
+    }
+    .intro-box h2{
+      font-size: 2rem;
+    }
+    .intro-box h3 {
+      font-size: 0.8rem;
+    }
+    .intro-box p {
+      font-size: 0.6rem;
+    }
+    .btn-group {
+      flex-direction: column;
+      align-items: center;
+     
+    }
+    .btn-group a {
+      margin-bottom: 0rem;
+      font-size: 0.6rem;
+    }
+    footer{
+      margin-top: 1rem;
+    }
+    footer p{
+      font-size: 0.6rem;
+    }
+  }
